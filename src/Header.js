@@ -1,9 +1,11 @@
+import "./App.css";
+
 export default function Header() {
   return (
     <header>
       <h1>Welcome to my website!</h1>
       <nav>
-        <ul>
+        <ul className="navList">
           <li>
             <a href="#">Home</a>
           </li>
